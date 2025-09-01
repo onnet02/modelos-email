@@ -6,182 +6,168 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sua Fatura OnNet</title>
     <style type="text/css">
-        table,
-        td,
-        a {
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-        }
-
-        body {
-            margin: 0 !important;
-            padding: 0 !important;
-            width: 100% !important;
-            background-color: #f4f4f4;
-            font-family: Arial, sans-serif;
-            text-align: justify;
-        }
-
-        table {
-            border-collapse: collapse !important;
-        }
-
-        .break-word {
-            word-wrap: break-word;
-            word-break: break-word;
-        }
-
-        @media screen and (max-width: 600px) {
-            .full-width-image {
-                width: 100% !important;
-                height: auto !important;
-            }
-
+        /* CSS para responsividade (mantido no head para clientes modernos) */
+        @media only screen and (max-width: 600px) {
             .container {
                 width: 100% !important;
+                margin: 0 !important;
+                border-radius: 0 !important;
+            }
+
+            .content-padding {
+                padding: 12px !important;
+            }
+
+            .app-badge {
+                width: 120px !important;
             }
         }
     </style>
 </head>
 
 <body
-    style="margin: 0 !important; padding: 0 !important; width: 100% !important; background-color: #f4f4f4; font-family: Arial, sans-serif; text-align: justify;">
-    <table class="container" width="600" border="0" cellpadding="0" cellspacing="0"
-        style="margin: 32px auto; background-color: #f6f8fa; padding: 0;">
-        <tbody>
-            <tr>
-                <td align="center" style="padding: 0; margin: 0;">
-                    <img src="https://raw.githubusercontent.com/onnet02/modelos-email/main/imagens/fatura-digital.png"
-                        alt="Banner OnNet" class="full-width-image"
-                        style="display: block; width: 100%; max-width: 600px; height: auto; border-radius: 8px 8px 0 0; font-family: Arial, sans-serif; font-size: 15px; color: #555555;">
-                </td>
-            </tr>
-            <tr>
-                <td style="padding: 30px;">
-                    <p style="font-size: 16px; color: #333333; margin: 0 0 10px 0; font-family: Arial, sans-serif;">
-                        Caro(a) <strong style="font-weight: bold;">#cliente#</strong>,</p>
-                    <p style="font-size: 16px; color: #333333; margin: 0 0 20px 0; font-family: Arial, sans-serif;">
-                        <strong style="font-weight: bold;">Encaminhamos em anexo sua fatura referente à mensalidade do
-                            serviço de internet</strong>, juntamente com a respectiva nota fiscal para conferência e
-                        controle.
-                    </p>
+    style="margin: 0; padding: 0; height: 100%; width: 100%; min-width: 100%; background-color: #f4f4f4; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: Arial, sans-serif; font-size: 16px; color: #333333;">
 
-                    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin: 20px 0;">
-                        <tbody>
-                            <tr>
-                                <td valign="middle"
-                                    style="background-color: #e8f5e9; padding: 15px; border-radius: 5px;">
-                                    <table cellpadding="0" cellspacing="0" border="0"
-                                        style="width: 100%; background-color: #e8f5e9; border-radius: 6px; padding: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #000000;">
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"
+        style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f4f4f4;">
+        <tr>
+            <td align="center" style="padding: 0;">
+                <table role="presentation" class="container" width="600" border="0" cellpadding="0" cellspacing="0"
+                    style="margin: 32px auto; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #FFFFFF; border-radius: 8px; overflow: hidden;">
+                    <tbody>
+                        <tr>
+                            <td align="center" style="padding: 0;">
+                                <img src="https://raw.githubusercontent.com/onnet02/modelos-email/main/imagens/fatura-digital.png"
+                                    alt="Banner OnNet" class="banner-image"
+                                    style="display: block; width: 100%; max-width: 600px; height: auto; font-size: 15px; color: #555555; border: 0; border-radius: 8px 8px 0 0;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="content-padding" style="padding: 30px;">
+                                <p style="color: #333333; margin: 0 0 10px 0; text-align: justify;">
+                                    Prezado(a) <strong style="font-weight: bold;">#cliente#</strong>,
+                                </p>
+                                <p style="color: #333333; margin: 0 0 20px 0; text-align: justify;">
+                                    Segue em anexo a(s) fatura(s) referente(s) à mensalidade e/ou demais serviços
+                                    prestados pela OnNet Telecom, acompanhada(s) das respectivas notas fiscais para sua
+                                    conferência e controle.
+                                </p>
+
+                                <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                                    style="background-color: #e6f4ec; color: #2f3e46; border-radius: 6px; padding: 16px; text-align: left;">
+                                    <tr>
+                                        <td style="padding: 8px;">
+                                            <p style="margin: 0 0 8px 0; font-weight: bold; font-size: 14px;">
+                                                Ficou com alguma dúvida?
+                                            </p>
+                                            <p style="margin: 0 0 12px 0; font-size: 14px;">
+                                                Entre em contato com nosso time de atendimento, estamos prontos para
+                                                auxiliá-lo.
+                                            </p>
+
+                                            <table role="presentation" cellpadding="0" cellspacing="0"
+                                                style="font-size: 12px; color: #2f3e46;">
+                                                <tr>
+                                                    <td style="padding-right: 30px;">
+                                                        <table role="presentation" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td style="width: auto; white-space: nowrap">
+                                                                    <a href="mailto:sara.santos@onnetmais.com.br"
+                                                                        style="color: #1b4332; text-decoration: none;">
+                                                                        sara.santos@onnetmais.com.br
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+
+                                                    <td style="padding-right: 30px; width: auto; white-space: nowrap">
+                                                        <table role="presentation" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td><a href="tel:+553431992222"
+                                                                        style="color: #2f3e46; text-decoration: none;">(34)
+                                                                        3199-2222</a></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+
+                                                    <td style="width: auto; white-space: nowrap">
+                                                        <table role="presentation" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td><a href="https://api.whatsapp.com/send?phone=5534992492222"
+                                                                        style="color: #2f3e46; text-decoration: none;">(34)
+                                                                        99249-2222</a></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <p style="color: #333333; margin: 20px 0; text-align: justify;">
+                                    <strong>Simplifique o acesso às suas faturas e documentos fiscais com o aplicativo
+                                        da OnNet Telecom.</strong> Nele, você acompanha todas as informações em tempo
+                                    real e acessa o histórico completo de faturas e notas fiscais.
+                                </p>
+
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%"
+                                    style="text-align: center; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                    <tbody>
                                         <tr>
-                                            <td colspan="2"
-                                                style="padding-bottom: 10px; font-family: Arial, sans-serif; font-size: 14px; color: #000000;">
-                                                Em caso de dúvidas ou necessidade de suporte, nossa equipe está pronta
-                                                para ajudar você.
+                                            <td align="center">
+                                                <table role="presentation" cellpadding="0" cellspacing="0"
+                                                    style="margin: 0 auto; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="padding: 10px;">
+                                                                <a href="https://play.google.com/store/apps/details?id=br.com.mksolutions.mksac.onnet&amp;hl=pt_BR"
+                                                                    style="text-decoration: none;">
+                                                                    <img class="app-badge"
+                                                                        style="width: 160px; height: auto; display: block; border: 0;"
+                                                                        src="https://raw.githubusercontent.com/onnet02/modelos-email/main/imagens/badge-google-play.png"
+                                                                        alt="Download PlayStore">
+                                                                </a>
+                                                            </td>
+                                                            <td style="padding: 10px;">
+                                                                <a href="https://apps.apple.com/br/app/onnet/id1175926677"
+                                                                    style="text-decoration: none;">
+                                                                    <img class="app-badge"
+                                                                        style="width: 160px; height: auto; display: block; border: 0;"
+                                                                        src="https://raw.githubusercontent.com/onnet02/modelos-email/main/imagens/badge-app-store.png"
+                                                                        alt="Download AppStore">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td style="vertical-align: middle; text-align: center; padding-right: 8px;">
-                                                <img src="https://raw.githubusercontent.com/onnet02/modelos-email/main/imagens/envelope.png"
-                                                    width="16" height="16"
-                                                    style="display: inline-block; vertical-align: middle; border: 0;"
-                                                    alt="E-mail">
-                                            </td>
-                                            <td
-                                                style="vertical-align: middle; font-family: Arial, sans-serif; font-size: 14px;">
-                                                <a href="mailto:sara.santos@onnetmais.com.br"
-                                                    style="color: #1b5e20; text-decoration: none; font-family: Arial, sans-serif;">sara.santos@onnetmais.com.br</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td style="vertical-align: middle; text-align: center; padding-right: 8px;">
-                                                <img src="https://i.postimg.cc/kB7w5MKz/metro-altphone-11264.png"
-                                                    width="16" height="16"
-                                                    style="display: inline-block; vertical-align: middle; border: 0;"
-                                                    alt="Telefone">
-                                            </td>
-                                            <td
-                                                style="vertical-align: middle; font-family: Arial, sans-serif; font-size: 14px;">
-                                                <a href="tel:+553431992222"
-                                                    style="color: #1b5e20; text-decoration: none; font-family: Arial, sans-serif;">(34)
-                                                    3199-2222</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td style="vertical-align: middle; text-align: center; padding-right: 8px;">
-                                                <img src="https://i.postimg.cc/GHzKT0j2/whatsapp-socialnetwork-17360.png"
-                                                    width="16" height="16"
-                                                    style="display: inline-block; vertical-align: middle; border: 0;"
-                                                    alt="WhatsApp">
-                                            </td>
-                                            <td
-                                                style="vertical-align: middle; font-family: Arial, sans-serif; font-size: 14px;">
-                                                <a href="https://api.whatsapp.com/send?phone=5534992492222"
-                                                    style="color: #1b5e20; text-decoration: none; font-family: Arial, sans-serif;">(34)
-                                                    99249-2222</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                                    </tbody>
+                                </table>
 
-                    <p
-                        style="font-size: 16px; color: #333333; text-align: justify; margin: 0 0 20px 0; font-family: Arial, sans-serif;">
-                        Para sua comodidade, você também pode acessar suas <strong
-                            style="font-weight: bold;">faturas</strong>, <strong style="font-weight: bold;">notas
-                            fiscais</strong> e
-                        <strong style="font-weight: bold;">histórico</strong> diretamente pelo <strong
-                            style="font-weight: bold;">aplicativo da OnNet Telecom.</strong>
-                    </p>
-
-                    <table cellpadding="0" cellspacing="0" width="100%" style="text-align: center;">
-                        <tbody>
-                            <tr>
-                                <td align="center">
-                                    <table cellpadding="0" cellspacing="0" style="margin: 0 auto;">
-                                        <tbody>
-                                            <tr>
-                                                <td style="padding: 10px;">
-                                                    <a href="https://play.google.com/store/apps/details?id=br.com.mksolutions.mksac.onnet&amp;hl=pt_BR"
-                                                        style="text-decoration: none;">
-                                                        <img style="width: 160px; height: auto; display: block; border: 0;"
-                                                            src="https://raw.githubusercontent.com/onnet02/modelos-email/main/imagens/badge-google-play.png"
-                                                            alt="Download PlayStore">
-                                                    </a>
-                                                </td>
-                                                <td style="padding: 10px;">
-                                                    <a href="https://apps.apple.com/br/app/onnet/id1175926677"
-                                                        style="text-decoration: none;">
-                                                        <img style="width: 160px; height: auto; display: block; border: 0;"
-                                                            src="https://raw.githubusercontent.com/onnet02/modelos-email/main/imagens/badge-app-store.png"
-                                                            alt="Download AppStore">
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <strong
-                        style="display: block; font-size: 14px; color: #333333; margin-top: 20px; font-family: Arial, sans-serif;">Caso
-                        ainda não tenha acesso, solicite seus dados de login pelo WhatsApp.</strong>
-                    <strong
-                        style="display: block; font-size: 14px; color: #999999; margin-top: 30px; text-align: center; font-family: Arial, sans-serif;">Mensagem
-                        automática. Favor não responder este e-mail.</strong>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-color: #f0f0f0; padding: 20px; color: #666666;" align="center">
-                    <img src="https://raw.githubusercontent.com/onnet02/modelos-email/main/imagens/onnet-log.png" alt="Logo OnNet"
-                        style="display: block; margin: 0 auto; width: 100px; max-width: 600px; height: auto; border: 0;">
-                </td>
-            </tr>
-        </tbody>
+                                <strong style="display: block; font-size: 12px; color: #333333; margin: 20px 0;">Caso
+                                    ainda não tenha acesso, solicite seus dados de login pelo <a
+                                        href="https://api.whatsapp.com/send?phone=553492492222"
+                                        style="color: #00713a; text-decoration: none;">WhatsApp</a>.</strong>
+                                <em
+                                    style="display: block; font-size: 14px; color: #939393; margin-top: 28px; text-align: center; font-style: italic;">Mensagem
+                                    automática. Favor não responder este e-mail.</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 12px; background-color: #FFFFFF; padding: 20px; color: #666666; border-radius: 0 0 8px 8px;"
+                                align="center">
+                                <img src="https://raw.githubusercontent.com/onnet02/modelos-email/main/imagens/onnet-logo.png"
+                                    alt="Logo OnNet"
+                                    style="display: block; margin: 0 auto; width: 100px; max-width: 600px; height: auto; border: 0;">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
     </table>
 </body>
 

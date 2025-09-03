@@ -1,0 +1,120 @@
+Você receberá um código HTML existente de um template de e-mail da OnNet Telecom.
+Sua tarefa é adaptar esse código seguindo as instruções abaixo, mantendo a compatibilidade com todos os navegadores e clientes de e-mail.
+
+O resultado final deve ser HTML limpo, responsivo, simples, moderno, profissional e informativo.
+
+🎨 Estrutura e Design
+
+Fundo geral branco ou cinza muito claro.
+
+Caixas de destaque (background cinza claro com bordas arredondadas e espaçamento interno).
+
+Fonte sem serifa (ex: Arial, Helvetica, Roboto).
+
+Títulos em negrito, maiores que o corpo, mas sem exagero.
+
+Ícones simples (telefone, WhatsApp, cadeado para segurança, etc).
+
+Botões de download do app centralizados e bem visíveis.
+
+✍️ Conteúdo por bloco
+1. Cabeçalho
+
+O cabeçalho deve ser composto apenas por uma imagem/banner centralizada.
+
+Essa imagem será fornecida pela OnNet Telecom e conterá o logo e a mensagem principal.
+
+Não utilizar textos adicionais fora da imagem no topo.
+
+2. Abertura do e-mail
+
+Texto centralizado à esquerda.
+
+Texto:
+Prezado(a), #cliente#
+
+Sua fatura da OnNet Telecom referente ao período de #mes_referencia# já está disponível. Confira abaixo as informações principais e escolha a forma de pagamento mais prática para você.
+
+3. Resumo da Fatura
+
+Caixa cinza claro com bordas arredondadas.
+
+Título: Resumo da Fatura
+
+Conteúdo:
+
+Vencimento: #data_vencimento#
+
+Valor: #valor#
+
+Código de Barras: #cod_barras#
+
+Texto auxiliar em itálico e cinza claro:
+💡 Copie o código de barras acima e pague pelo aplicativo ou internet banking do seu banco.
+
+4. Endereço de Instalação
+
+Caixa cinza claro com bordas arredondadas.
+
+Título: Endereço de Instalação
+
+Conteúdo:
+#endereco#
+#cidade_uf_cep#
+
+Deve ser dentro do campo de RESUMO DA FATURA
+
+5. Opções de Pagamento
+
+Caixa cinza claro com bordas arredondadas.
+
+Título: Opções de Pagamento
+
+Abertura:
+Escolha a forma de pagamento que for mais prática para você
+
+Opção 1 – Boleto Bancário
+Utilize o código de barras informado acima ou o boleto em anexo para pagar pelo aplicativo do seu banco, internet banking ou em qualquer correspondente autorizado.
+
+Opção 2 – Aplicativo OnNet Telecom
+Pague com Pix ou Cartão de Crédito e tenha confirmação imediata.
+No app você também pode gerenciar suas faturas, acompanhar pagamentos e emitir 2ª via de forma simples.
+
+Botões (centralizados):
+📲 Baixe agora o aplicativo da OnNet Telecom
+[Google Play] [App Store]
+
+6. Mensagem final
+
+Texto centralizado em cinza claro.
+
+Texto:
+Se o pagamento já foi realizado, desconsidere esta mensagem.
+A compensação pode ocorrer em até 72h úteis.
+
+7. Atendimento e Suporte
+
+Caixa cinza claro com bordas arredondadas.
+
+Título: Atendimento e Suporte
+
+Texto:
+Nossa equipe está à disposição para esclarecer dúvidas e oferecer suporte pelos canais oficiais da OnNet Telecom.
+
+📞 Telefone: (34) 3199-2222
+💬 WhatsApp: (34) 99249-2222 
+
+Nosso suporte técnico está disponível 24 horas por dia para te auxiliar sempre que precisar.
+Para assuntos administrativos e comerciais, o atendimento funciona de segunda a sexta, das 07h30 às 18h30, e aos sábados, das 08h00 às 12h00.
+
+🔒 Segurança em primeiro lugar
+A OnNet Telecom nunca solicita senhas por telefone, WhatsApp ou e-mail. Sempre utilize nossos canais oficiais para garantir sua segurança.
+
+8. Rodapé
+
+Logo da empresa centralizado.
+
+Texto em fonte menor e cinza claro:
+© 2025 OnNet Telecom. Todos os direitos reservados.
+
+⚡ Quero esse template final em HTML pronto para e-mail marketing, responsivo, simples e moderno, seguindo todas as instruções acima.
